@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c14c771a-aad0-4287-4ae0-d087331c997e": {
+      "ProjectGuid": "c14c771a-aad0-4287-4ae0-d087331c997e",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 0
+    },
+    "2fdf49aa-c099-baee-a871-c1ea833b6453": {
+      "ProjectGuid": "2fdf49aa-c099-baee-a871-c1ea833b6453",
+      "DisplayName": "PathCreator",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
