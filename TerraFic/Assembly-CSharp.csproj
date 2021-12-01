@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathSpawner.cs" />
+    <Compile Include="Assets\Scripts\FollowPath.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
     <Compile Include="Assets\2D_urban_cars\scripts\SceneLoaderBehaviour.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathPlacer.cs" />
@@ -61,7 +62,6 @@
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathSceneTool.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathFollower.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
-    <Compile Include="Assets\Scripts\FollowPath.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
