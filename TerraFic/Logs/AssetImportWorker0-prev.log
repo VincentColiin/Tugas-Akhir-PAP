@@ -1,0 +1,1317 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16276 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER/Desktop/Kuliah/Semester 5/Pengembangan Aplikasi Permainan/Tugas/Tugas-Akhir-PAP/TerraFic
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64160
+Successfully changed project path to: C:/Users/USER/Desktop/Kuliah/Semester 5/Pengembangan Aplikasi Permainan/Tugas/Tugas-Akhir-PAP/TerraFic
+C:/Users/USER/Desktop/Kuliah/Semester 5/Pengembangan Aplikasi Permainan/Tugas/Tugas-Akhir-PAP/TerraFic
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Desktop/Kuliah/Semester 5/Pengembangan Aplikasi Permainan/Tugas/Tugas-Akhir-PAP/TerraFic/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002726 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1888ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008404 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1858ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1571ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 97.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 4.066800 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.146500 ms MarkObjects: 3.527900 ms  DeleteObjects: 0.117500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resource
+  artifactKey: Guid(0c0a601da8bc0824ca10aa8d4c252492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource using Guid(0c0a601da8bc0824ca10aa8d4c252492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8dd2076e37a2d897fab0a2646b23df') in 0.006632 seconds 
+  Import took 0.011707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.958141 seconds.
+  path: Assets/Resource/Texture
+  artifactKey: Guid(74ca237e67cdf0d4191285cd64a824b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Texture using Guid(74ca237e67cdf0d4191285cd64a824b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fba2371c38241cfb2fe4f7e29d82c52') in 0.005779 seconds 
+  Import took 0.014597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.028508 seconds.
+  path: Assets/Resource/Texture/download.jpg
+  artifactKey: Guid(dae96ee6e14a3b441a08ad439ed58eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Texture/download.jpg using Guid(dae96ee6e14a3b441a08ad439ed58eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a16e03b125a92e6681e17157b61b895') in 0.218879 seconds 
+  Import took 0.224996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.447056 seconds.
+  path: Assets/Resource/Material
+  artifactKey: Guid(772eabfc0e428014f95682ebaf613c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Material using Guid(772eabfc0e428014f95682ebaf613c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8d480b3639ce3d7f1aa73b34712410') in 0.003379 seconds 
+  Import took 0.008594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.182640 seconds.
+  path: Assets/Resource/Material/NewSurfaceShader.shader
+  artifactKey: Guid(926a537153255a44dbb6131742e42947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Material/NewSurfaceShader.shader using Guid(926a537153255a44dbb6131742e42947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0976c6d36b1c234c6f88a47ec78c4433') in 0.053278 seconds 
+  Import took 0.058364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.927429 seconds.
+  path: Assets/Resource/Material/Road.mat
+  artifactKey: Guid(56b5918e27481b74d9e74da5c8ebe033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Material/Road.mat using Guid(56b5918e27481b74d9e74da5c8ebe033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b127a36606a499b458c39fc5b3b753') in 0.207484 seconds 
+  Import took 0.213726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.097011 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_blue/4x4_blue.png
+  artifactKey: Guid(a6b6671f5024d4dc3af9f184cc62ba56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_urban_cars/sprites/4x4_blue/4x4_blue.png using Guid(a6b6671f5024d4dc3af9f184cc62ba56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0827dfe5309bd2fd0aa938baa12a30a0') in 0.023568 seconds 
+  Import took 0.030896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_blue/4x4_door_blue.png
+  artifactKey: Guid(fcb1e86dd6f6b472798b7ce6713f5b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_urban_cars/sprites/4x4_blue/4x4_door_blue.png using Guid(fcb1e86dd6f6b472798b7ce6713f5b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30aa7a72939bf6992d58802c0c453abc') in 0.020395 seconds 
+  Import took 0.025228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_green/4x4_door_green_r.png
+  artifactKey: Guid(50e97f29f8dbf49f9802b24582905c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_urban_cars/sprites/4x4_green/4x4_door_green_r.png using Guid(50e97f29f8dbf49f9802b24582905c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24cca9b88970d87346b74eceff9aefe') in 0.029020 seconds 
+  Import took 0.034562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_white/4x4_door_white.png
+  artifactKey: Guid(08b3eb59bf82c47ecb84393980805375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_urban_cars/sprites/4x4_white/4x4_door_white.png using Guid(08b3eb59bf82c47ecb84393980805375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3602fb4fd91b709282497f0ca6ef74') in 0.017136 seconds 
+  Import took 0.023234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_green/4x4_door_green.png
+  artifactKey: Guid(5056464f0402d45e0a14931e6c9a7e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_urban_cars/sprites/4x4_green/4x4_door_green.png using Guid(5056464f0402d45e0a14931e6c9a7e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d711278c5c5c98a55b4adef39f1780') in 0.023870 seconds 
+  Import took 0.030569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_blue/4x4_door_blue_r.png
+  artifactKey: Guid(0b15d4b72d6b54ea0a89a6f4a2e68b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_urban_cars/sprites/4x4_blue/4x4_door_blue_r.png using Guid(0b15d4b72d6b54ea0a89a6f4a2e68b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93f2f80113d1e27e8a814540e2c4561') in 0.020934 seconds 
+  Import took 0.025772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_white/4x4_door_white_r.png
+  artifactKey: Guid(52917b299186e4d579af326074d968c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_urban_cars/sprites/4x4_white/4x4_door_white_r.png using Guid(52917b299186e4d579af326074d968c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94469a00b216eab9e3449227a44d96f4') in 0.016558 seconds 
+  Import took 0.022640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/2D_urban_cars/sprites/4x4_green/4x4_green.png
+  artifactKey: Guid(bfb38d3b1997b4ffe8ac2fdd8cd96b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_urban_cars/sprites/4x4_green/4x4_green.png using Guid(bfb38d3b1997b4ffe8ac2fdd8cd96b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e851fb63921f2d65230bb3db583e496') in 0.016795 seconds 
+  Import took 0.024935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.216042 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
+  artifactKey: Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f9d2c87602c9de665cd5edc8b46197') in 0.020811 seconds 
+  Import took 0.026503 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.937 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1938ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1548ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (554ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 6.200800 ms (FindLiveObjects: 0.967800 ms CreateObjectMapping: 0.311500 ms MarkObjects: 4.892000 ms  DeleteObjects: 0.027400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 620.439551 seconds.
+  path: Assets/Resource/Material/Rectangular Palette.prefab
+  artifactKey: Guid(17f290a801009c341a346d9f401b2963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Material/Rectangular Palette.prefab using Guid(17f290a801009c341a346d9f401b2963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb323fd61825a6584d28beec5c8f3416') in 0.090819 seconds 
+  Import took 0.096822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 703.834489 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004561 seconds 
+  Import took 0.012244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.939996 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(b55cd81d4434257458812efd991d0440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(b55cd81d4434257458812efd991d0440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2979640dfee3564a7a4107c740a70a26') in 0.003734 seconds 
+  Import took 0.008844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.685907 seconds.
+  path: Assets/Sprites/road.png
+  artifactKey: Guid(cac1281faef13174bbc7c2a349a1b9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/road.png using Guid(cac1281faef13174bbc7c2a349a1b9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe430d4c240c8c9449f0f40545ae764') in 0.043280 seconds 
+  Import took 0.048052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.416224 seconds.
+  path: Assets/Sprites/road.png
+  artifactKey: Guid(cac1281faef13174bbc7c2a349a1b9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/road.png using Guid(cac1281faef13174bbc7c2a349a1b9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1ba64014f1eb073c8e94661695f4a3') in 0.022709 seconds 
+  Import took 0.027967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.679173 seconds.
+  path: Assets/Resource/Material/Road.mat
+  artifactKey: Guid(56b5918e27481b74d9e74da5c8ebe033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Material/Road.mat using Guid(56b5918e27481b74d9e74da5c8ebe033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c2833da80ec688ba5a6650201ac51c') in 0.028828 seconds 
+  Import took 0.033410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.897100 seconds.
+  path: Assets/PathCreator/Examples/Materials/Red.mat
+  artifactKey: Guid(01763a1c279a5cd4d8f897f6b6cdbae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Red.mat using Guid(01763a1c279a5cd4d8f897f6b6cdbae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26659ad97b87a91099854a98eadb979e') in 0.016292 seconds 
+  Import took 0.022123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/PathCreator/Examples/Materials/Road.mat
+  artifactKey: Guid(b5df4735192845740bd11076dc9cdc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Road.mat using Guid(b5df4735192845740bd11076dc9cdc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142117e66f5113ebb15359ca95d11d43') in 0.019737 seconds 
+  Import took 0.025960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/PathCreator/Examples/Materials/Road Underside.mat
+  artifactKey: Guid(c1d8d882244c5344fa86a8fd23246f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Road Underside.mat using Guid(c1d8d882244c5344fa86a8fd23246f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916431545015946c8aa1a70446dd5b0c') in 0.015055 seconds 
+  Import took 0.021577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.261697 seconds.
+  path: Assets/PathCreator/Core
+  artifactKey: Guid(fded9f896ea32473eb30ae61b640a176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core using Guid(fded9f896ea32473eb30ae61b640a176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8029ffd28a2ae9f31fa1e75318461e9a') in 0.004320 seconds 
+  Import took 0.012226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.384954 seconds.
+  path: Assets/PathCreator/Core/Editor
+  artifactKey: Guid(76c2f3171eae9954aa317277dbffd478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Editor using Guid(76c2f3171eae9954aa317277dbffd478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae188089e77b7f73f89e3325f088d55') in 0.003145 seconds 
+  Import took 0.007768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048777 seconds.
+  path: Assets/PathCreator/Core/Editor/PathCreatorEditor.asmdef
+  artifactKey: Guid(92ee438f32d811247a22ca14bf2a3fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Editor/PathCreatorEditor.asmdef using Guid(92ee438f32d811247a22ca14bf2a3fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ad5216642b9e8a5e0d42d758ced05a') in 0.004870 seconds 
+  Import took 0.008659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.178176 seconds.
+  path: Assets/PathCreator/Core/Editor/Helper
+  artifactKey: Guid(366e41d4e3408334aad31e48f28757e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Editor/Helper using Guid(366e41d4e3408334aad31e48f28757e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869aa28968a717684fe2c4c8feec7c66') in 0.004498 seconds 
+  Import took 0.013820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.634660 seconds.
+  path: Assets/PathCreator/Core/Runtime
+  artifactKey: Guid(c62dae0f992c5174a951248617cc5720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Runtime using Guid(c62dae0f992c5174a951248617cc5720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785c69273445852d246e263ccee9a735') in 0.003497 seconds 
+  Import took 0.009706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044711 seconds.
+  path: Assets/PathCreator/Core/Runtime/PathCreator.asmdef
+  artifactKey: Guid(626070ea3273cb844a310aa4f53b31fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Runtime/PathCreator.asmdef using Guid(626070ea3273cb844a310aa4f53b31fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6da5bfb3f040d4a22c4f41b275e947') in 0.003815 seconds 
+  Import took 0.011039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.361297 seconds.
+  path: Assets/PathCreator/Core/Runtime/Utility
+  artifactKey: Guid(4c55bdfe2cdafc04ba5f909d4f1f192b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Runtime/Utility using Guid(4c55bdfe2cdafc04ba5f909d4f1f192b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be42ae5dd9c7eba0b00d0b0d181e50a7') in 0.003603 seconds 
+  Import took 0.010129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.397088 seconds.
+  path: Assets/PathCreator/Core/Runtime/Objects
+  artifactKey: Guid(2b76edb14a39ed944b9c906e5f1d3aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Runtime/Objects using Guid(2b76edb14a39ed944b9c906e5f1d3aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f826929b876fbfb2ac34f1f486ab54') in 0.002843 seconds 
+  Import took 0.007298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.140274 seconds.
+  path: Assets/PathCreator/Core/Settings/GlobalDisplaySettings.asset
+  artifactKey: Guid(35fab21375bf12f4b96eba4dafa4ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Settings/GlobalDisplaySettings.asset using Guid(35fab21375bf12f4b96eba4dafa4ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d499617244ba04e0fc2dde506a8024') in 0.006061 seconds 
+  Import took 0.011590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.029058 seconds.
+  path: Assets/PathCreator/Examples/Materials
+  artifactKey: Guid(ba68311e0a74e694fbd8f64185d03175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials using Guid(ba68311e0a74e694fbd8f64185d03175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336949197022ef795e6cd808a5f1319b') in 0.003627 seconds 
+  Import took 0.008851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063713 seconds.
+  path: Assets/PathCreator/Examples/Materials/Black.mat
+  artifactKey: Guid(69561553b86bde34da494d1ffed3ba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Black.mat using Guid(69561553b86bde34da494d1ffed3ba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeea3df47f6e0527d381fb8a0de48e4f') in 0.013100 seconds 
+  Import took 0.018413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/PathCreator/Examples/Materials/Blue.mat
+  artifactKey: Guid(5c270a73328a99e439fec44a0cf3a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Blue.mat using Guid(5c270a73328a99e439fec44a0cf3a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f63f23d0424f8a8cb588beef6048ed3') in 0.015105 seconds 
+  Import took 0.021154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/PathCreator/Examples/Materials/Green.mat
+  artifactKey: Guid(9ca80467a033e954a8b9ad8601d6f4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Green.mat using Guid(9ca80467a033e954a8b9ad8601d6f4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e349c783bd0682d91971239c650be9') in 0.014865 seconds 
+  Import took 0.020339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/PathCreator/Examples/Materials/Brown.mat
+  artifactKey: Guid(d5b3a558a1e7f4a4182b166bb2f27cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Brown.mat using Guid(d5b3a558a1e7f4a4182b166bb2f27cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e6eb827425b376d75ad70ffa966fdd') in 0.014617 seconds 
+  Import took 0.020585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/PathCreator/Examples/Materials/Dark Grey.mat
+  artifactKey: Guid(407e3de4fbbcf4a99b17bf5aac2d28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Dark Grey.mat using Guid(407e3de4fbbcf4a99b17bf5aac2d28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be306003391095b5b70bf91ec3d5559') in 0.017330 seconds 
+  Import took 0.023448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/PathCreator/Examples/Materials/Road Texture.png
+  artifactKey: Guid(eef7def8a6d89134284369bbe0145515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Road Texture.png using Guid(eef7def8a6d89134284369bbe0145515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a758f7edb82a6335f75146ae832a6fb4') in 0.014649 seconds 
+  Import took 0.019033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.206551 seconds.
+  path: Assets/PathCreator/Examples
+  artifactKey: Guid(856133338e5935c4ea7215ea837b00da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples using Guid(856133338e5935c4ea7215ea837b00da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a5fdffd6364730a58d90a726727b24') in 0.003083 seconds 
+  Import took 0.010660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.641796 seconds.
+  path: Assets/Resource/Material/Road.mat
+  artifactKey: Guid(56b5918e27481b74d9e74da5c8ebe033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Material/Road.mat using Guid(56b5918e27481b74d9e74da5c8ebe033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72109a6484608a16d5e37c62bbd2027e') in 0.022620 seconds 
+  Import took 0.030302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 819.352835 seconds.
+  path: Assets/Resource/Material/download.asset
+  artifactKey: Guid(e94e41fdd69d9244bbebf64e19831d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Material/download.asset using Guid(e94e41fdd69d9244bbebf64e19831d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819fc7b3202e63c36776bda48e584de9') in 0.055657 seconds 
+  Import took 0.060793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 336.460323 seconds.
+  path: Assets/Resource/Texture/download.jfif
+  artifactKey: Guid(ac1c07fe1b4746d4c9bd1e5c0a7c0d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Texture/download.jfif using Guid(ac1c07fe1b4746d4c9bd1e5c0a7c0d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c09ddbff164236d9ac062f6b39742c') in 0.010104 seconds 
+  Import took 0.015656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.272857 seconds.
+  path: Assets/Resource/Material/Texture
+  artifactKey: Guid(43c33cca585f2004f8aeca4a8b5448ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Material/Texture using Guid(43c33cca585f2004f8aeca4a8b5448ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bef137c9edd91da7674d8d3461c8605') in 0.003291 seconds 
+  Import took 0.009794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2068.775647 seconds.
+  path: Assets/CityStreets/Documents
+  artifactKey: Guid(24dcaa73692cd2649a628d44219cd0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Documents using Guid(24dcaa73692cd2649a628d44219cd0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb0a3a2a9240527ce361536d6219288') in 0.004663 seconds 
+  Import took 0.011899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.448119 seconds.
+  path: Assets/CityStreets/Documents/cityStreets.pdf
+  artifactKey: Guid(a958684b8627fbb4fbbf2fc7cf98d1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Documents/cityStreets.pdf using Guid(a958684b8627fbb4fbbf2fc7cf98d1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492a3f29d164384850f2ea612106d111') in 0.012406 seconds 
+  Import took 0.016625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.202974 seconds.
+  path: Assets/CityStreets/Materials/Curb.mat
+  artifactKey: Guid(3c13d49e48a528d4c895a75c107259c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Curb.mat using Guid(3c13d49e48a528d4c895a75c107259c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e669f92d52ce5e3e2bc396a1d912bc6') in 0.357465 seconds 
+  Import took 0.362918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/CityStreets/Materials/Street.Straight.SolidLine.mat
+  artifactKey: Guid(38edcb62d6b3f334490979923671ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Straight.SolidLine.mat using Guid(38edcb62d6b3f334490979923671ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7424dd9b455c00cb872eccf52ccd590b') in 0.032718 seconds 
+  Import took 0.037953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/CityStreets/Materials/Street.Junction.SolidLine.mat
+  artifactKey: Guid(4d0399385f23b384596bfe27e4ad1cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Junction.SolidLine.mat using Guid(4d0399385f23b384596bfe27e4ad1cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027a53c13b5cf413f65f64ce2ececfbc') in 0.022463 seconds 
+  Import took 0.029566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/CityStreets/Materials/Street.Intersection.DashLines.mat
+  artifactKey: Guid(3d756a691f977cc47abe8c2b1e81cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Intersection.DashLines.mat using Guid(3d756a691f977cc47abe8c2b1e81cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c243ad7e961682cba0d63e0a099ca253') in 0.019282 seconds 
+  Import took 0.024435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/CityStreets/Materials/Street.Straight.DashLine.mat
+  artifactKey: Guid(afbea5c46414e4d44b81455399d6c10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Straight.DashLine.mat using Guid(afbea5c46414e4d44b81455399d6c10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e771a5038606c8e4ea47ebdbc75e5326') in 0.023096 seconds 
+  Import took 0.029893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/CityStreets/Materials/Sidewalk.mat
+  artifactKey: Guid(ecfcba8e042cdcc4394e1f988f39de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Sidewalk.mat using Guid(ecfcba8e042cdcc4394e1f988f39de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718b5ba0b336165a9ce0d69645209d82') in 0.027419 seconds 
+  Import took 0.034458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/CityStreets/Materials/Street.End.DashLines.mat
+  artifactKey: Guid(6f22d63aa5892fb49affd15269e4eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.End.DashLines.mat using Guid(6f22d63aa5892fb49affd15269e4eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedd10399b00916b482207e96be98817') in 0.022342 seconds 
+  Import took 0.031520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/CityStreets/Materials/Street.Junction.DashLines.mat
+  artifactKey: Guid(ffd03ba2cf78f7643a13c0296a855691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Junction.DashLines.mat using Guid(ffd03ba2cf78f7643a13c0296a855691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6210e571c6958c775b46c648c339053') in 0.017918 seconds 
+  Import took 0.023510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/CityStreets/Materials/Street.Curve.DashLines.mat
+  artifactKey: Guid(f3c545014fec26243ab310981e780ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Curve.DashLines.mat using Guid(f3c545014fec26243ab310981e780ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d47e3356e8c504b34e033e44f5e74eb') in 0.019499 seconds 
+  Import took 0.025264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/CityStreets/Materials/Street.End.Crosswalk.mat
+  artifactKey: Guid(31da971c9afedec4fafc1cb18efdef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.End.Crosswalk.mat using Guid(31da971c9afedec4fafc1cb18efdef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e17c352fbab394bb864f9dd8003bbe5') in 0.018944 seconds 
+  Import took 0.026484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/CityStreets/Materials/Street.End.SolidLine.mat
+  artifactKey: Guid(ab2f3846a4b01bc488910cc65d4e43f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.End.SolidLine.mat using Guid(ab2f3846a4b01bc488910cc65d4e43f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c3016f9f84be1070b96ce5ca7f0477') in 0.017905 seconds 
+  Import took 0.024634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/CityStreets/Materials/Street.Intersection.Crosswalk.mat
+  artifactKey: Guid(64536f91e61fe614c8897b0407d727ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Intersection.Crosswalk.mat using Guid(64536f91e61fe614c8897b0407d727ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d6e7f3b7db6c6bd3c03655291fb863') in 0.017394 seconds 
+  Import took 0.023766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/CityStreets/Materials/Street.Junction.Crosswalk.mat
+  artifactKey: Guid(76c9024314aafa24eb7b9ce81554345d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Junction.Crosswalk.mat using Guid(76c9024314aafa24eb7b9ce81554345d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cdcc5983bd27ebb424328440039564') in 0.018622 seconds 
+  Import took 0.024674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/CityStreets/Materials/Street.Intersection.SolidLine.mat
+  artifactKey: Guid(23ea6e8b464686945b7b9645eeb28ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Intersection.SolidLine.mat using Guid(23ea6e8b464686945b7b9645eeb28ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd560a2c71e872e4caeb8bc9badf90d08') in 0.019349 seconds 
+  Import took 0.025300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/CityStreets/Materials/Street.Curve.Crosswalk.mat
+  artifactKey: Guid(8f64733708870de4d80608484c604c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Curve.Crosswalk.mat using Guid(8f64733708870de4d80608484c604c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a02540d34992cd63de3e980d0776e02') in 0.022524 seconds 
+  Import took 0.030889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/CityStreets/Materials/Street.Curve.SolidLine.mat
+  artifactKey: Guid(2d4f1e37e65d6a9498f69515b7ca231c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Curve.SolidLine.mat using Guid(2d4f1e37e65d6a9498f69515b7ca231c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ecdfac6a2bdc88c4f9791be0f0879a') in 0.019709 seconds 
+  Import took 0.025885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/CityStreets/Materials/Street.Straight.Crosswalk.mat
+  artifactKey: Guid(66fe40978f08658479959b0afbe79837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Materials/Street.Straight.Crosswalk.mat using Guid(66fe40978f08658479959b0afbe79837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b86d2d957d64820d35d0bbc185b2527') in 0.019561 seconds 
+  Import took 0.026424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.678080 seconds.
+  path: Assets/CityStreets/Models/street.curve.fbx
+  artifactKey: Guid(d8abbd3bad71f72458d7792abfdb0a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Models/street.curve.fbx using Guid(d8abbd3bad71f72458d7792abfdb0a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4059619e7adf694ecc707c282c74a86a') in 2.875166 seconds 
+  Import took 2.880641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/CityStreets/Prefabs/street.curve.solidLine.prefab
+  artifactKey: Guid(2e7a0189a1e8e234ea5a72fde5ce3e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.curve.solidLine.prefab using Guid(2e7a0189a1e8e234ea5a72fde5ce3e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45206edd271fb2b25f080d554bc09ae0') in 0.043235 seconds 
+  Import took 0.047496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/CityStreets/Prefabs/street.straight.crosswalk.prefab
+  artifactKey: Guid(4bafaa5a49c11dc4e8e408f9c5a9cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.straight.crosswalk.prefab using Guid(4bafaa5a49c11dc4e8e408f9c5a9cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ae5f10c5198cbd7c65bc3c51409822') in 0.026917 seconds 
+  Import took 0.032383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/CityStreets/Prefabs/street.junction.solidLine.prefab
+  artifactKey: Guid(13c78804695ca9d4d847d2cc782bee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.junction.solidLine.prefab using Guid(13c78804695ca9d4d847d2cc782bee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6251804bc1702c69e0299d5af55bbee') in 0.035027 seconds 
+  Import took 0.040720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/CityStreets/Prefabs/street.end.dashLines.prefab
+  artifactKey: Guid(15318dfaf9c61a64c85394642658c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.end.dashLines.prefab using Guid(15318dfaf9c61a64c85394642658c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2e5866e09541b4eadd6d56d6efd392') in 0.023603 seconds 
+  Import took 0.029406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/CityStreets/Models/street.straight.fbx
+  artifactKey: Guid(6f8601cdb1cdea445bea0694b0a5e65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Models/street.straight.fbx using Guid(6f8601cdb1cdea445bea0694b0a5e65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f026d969090a04a6947c2ad30e77f0db') in 0.038565 seconds 
+  Import took 0.043733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/CityStreets/Prefabs/street.end.crosswalk.prefab
+  artifactKey: Guid(7d077707691ce7140b4c7eda252d1907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.end.crosswalk.prefab using Guid(7d077707691ce7140b4c7eda252d1907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ffcef45ffc9b3e19035c2b8ca87a94') in 0.023079 seconds 
+  Import took 0.028626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/CityStreets/Prefabs/street.intersection.solidLine.prefab
+  artifactKey: Guid(ab10d022e849a254b8f52da41a67ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.intersection.solidLine.prefab using Guid(ab10d022e849a254b8f52da41a67ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104e6f3ce42ddebf0a75d49f373e704d') in 0.028178 seconds 
+  Import took 0.033955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/CityStreets/Models/street.end.fbx
+  artifactKey: Guid(abf9d465bb0d60f419c6bdf35b7abe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Models/street.end.fbx using Guid(abf9d465bb0d60f419c6bdf35b7abe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea1befd6bd43d718897a83ca14a9b5e') in 0.040566 seconds 
+  Import took 0.044533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/CityStreets/Models/street.intersection.fbx
+  artifactKey: Guid(5d3bc6b3555a3834696858976fb326af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Models/street.intersection.fbx using Guid(5d3bc6b3555a3834696858976fb326af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dbf24155fc46423eb7f88e3921e5af') in 0.043626 seconds 
+  Import took 0.048000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/CityStreets/Prefabs/street.end.solidLine.prefab
+  artifactKey: Guid(84e3fd5ca28a55e439594d40097f163b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.end.solidLine.prefab using Guid(84e3fd5ca28a55e439594d40097f163b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17880b853b1d5993835ad7e6e580b9b5') in 0.022739 seconds 
+  Import took 0.027304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/CityStreets/Prefabs/street.intersection.dashLines.prefab
+  artifactKey: Guid(cabb1a1c1c0bafc418218f9f376c4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.intersection.dashLines.prefab using Guid(cabb1a1c1c0bafc418218f9f376c4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61b55e73d127c44cf0c1274dc8c41dd') in 0.027707 seconds 
+  Import took 0.034161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/CityStreets/Models/street.junction.fbx
+  artifactKey: Guid(2355d474dfe529e43b4da2c2ee1e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Models/street.junction.fbx using Guid(2355d474dfe529e43b4da2c2ee1e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258f0e9998abaecb35b8263e1577ac82') in 0.046830 seconds 
+  Import took 0.052720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/CityStreets/Prefabs/street.junction.crosswalk.prefab
+  artifactKey: Guid(63bb2429e7c16c14fb85615e47183ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.junction.crosswalk.prefab using Guid(63bb2429e7c16c14fb85615e47183ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8b8cd9af982b848c8bfc6a52eee61d') in 0.032681 seconds 
+  Import took 0.040176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/CityStreets/Prefabs/street.intersection.crosswalk.prefab
+  artifactKey: Guid(3e1b125972e4d814bbfe12315f96bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.intersection.crosswalk.prefab using Guid(3e1b125972e4d814bbfe12315f96bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195a213f802688fea035f3e5f4e57604') in 0.026030 seconds 
+  Import took 0.032017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/CityStreets/Prefabs/street.junction.dashLines.prefab
+  artifactKey: Guid(cac541280cca88d458575c75687b9057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.junction.dashLines.prefab using Guid(cac541280cca88d458575c75687b9057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306bbf9847b4f788b18a98b26df1aa38') in 0.026879 seconds 
+  Import took 0.033043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/CityStreets/Prefabs/street.straight.dashLines.prefab
+  artifactKey: Guid(407c255307820694dab7a48c7ba85d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.straight.dashLines.prefab using Guid(407c255307820694dab7a48c7ba85d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5834042e3dcfc622e0e7929fb8f1b6f7') in 0.025041 seconds 
+  Import took 0.030770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/CityStreets/Prefabs/street.straight.solidLine.prefab
+  artifactKey: Guid(91225676487fc754da9adbd634985a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.straight.solidLine.prefab using Guid(91225676487fc754da9adbd634985a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321d002a06107a914f98415a091fcfcb') in 0.028354 seconds 
+  Import took 0.034335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/CityStreets/Prefabs/street.curve.dashLines.prefab
+  artifactKey: Guid(c34e291a25be321468849fe1e5c900e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.curve.dashLines.prefab using Guid(c34e291a25be321468849fe1e5c900e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c249b0a72ed2ac68fcc33a602945b13a') in 0.025812 seconds 
+  Import took 0.033537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/CityStreets/Prefabs/street.curve.crosswalk.prefab
+  artifactKey: Guid(d1d272c2c7f4b4048871115a5b3100ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs/street.curve.crosswalk.prefab using Guid(d1d272c2c7f4b4048871115a5b3100ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ad9bbad05da8bb37309b5147c4624d') in 0.073075 seconds 
+  Import took 0.079605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.271619 seconds.
+  path: Assets/CityStreets/Textures/curb.normal.png
+  artifactKey: Guid(dc9eae83d8d86ef429c36a4645fc1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/curb.normal.png using Guid(dc9eae83d8d86ef429c36a4645fc1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea6ea73bcfa8b85258d25cdf1f1d17f') in 0.016499 seconds 
+  Import took 0.022850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.solidLine.png
+  artifactKey: Guid(3efcd962bb45bb14b91c85b8cfa259fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.solidLine.png using Guid(3efcd962bb45bb14b91c85b8cfa259fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2eb7b2370cdce72e54c195d4fc7c9d') in 0.014770 seconds 
+  Import took 0.022118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/CityStreets/Textures/street.specular.png
+  artifactKey: Guid(81bc9eb8195fe9b4686e0b11e50010a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.specular.png using Guid(81bc9eb8195fe9b4686e0b11e50010a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfde843c163fbfe5b67b5f806d42dacd') in 0.020083 seconds 
+  Import took 0.029474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/CityStreets/Textures/curb.png
+  artifactKey: Guid(a7cd4228da97e9c48a8a4e5c15b50841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/curb.png using Guid(a7cd4228da97e9c48a8a4e5c15b50841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e0f863697c69e9e678d2dfa92a168c') in 0.015144 seconds 
+  Import took 0.021617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/CityStreets/Textures/street.curve.dashLines.png
+  artifactKey: Guid(dbc30b801d6fa7244aa5c699c8c4395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.curve.dashLines.png using Guid(dbc30b801d6fa7244aa5c699c8c4395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d10c804142acb841120e761b6236e2') in 0.016920 seconds 
+  Import took 0.023616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/CityStreets/Textures/street.end.dashLines.png
+  artifactKey: Guid(a1a974159531510439306e0fa7fd5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.end.dashLines.png using Guid(a1a974159531510439306e0fa7fd5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b9bd494b4c9d74105f0e3eb85b9906') in 0.015882 seconds 
+  Import took 0.021505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/CityStreets/Textures/street.curve.solidLine.png
+  artifactKey: Guid(cf4e075ae2d1b6645b5cf3afbc86080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.curve.solidLine.png using Guid(cf4e075ae2d1b6645b5cf3afbc86080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27df72ca0d6fa62cc1918213970725c') in 0.014535 seconds 
+  Import took 0.022373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/CityStreets/Textures/street.junction.dashLines.png
+  artifactKey: Guid(340b0a5d984416242986efa60ea6e03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.junction.dashLines.png using Guid(340b0a5d984416242986efa60ea6e03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2cba35dfd8bb0f48eb441523b6e081') in 0.014303 seconds 
+  Import took 0.019411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.crosswalk.png
+  artifactKey: Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.crosswalk.png using Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe717efc6e7b262c0ea7238ac4570706') in 0.010474 seconds 
+  Import took 0.018079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/CityStreets/Textures/sidewalk.specular.png
+  artifactKey: Guid(7b154bafdf1f6734594c14e447e4f101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/sidewalk.specular.png using Guid(7b154bafdf1f6734594c14e447e4f101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da351e2e0008d1f660f53e245169ec9a') in 0.012755 seconds 
+  Import took 0.018277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/CityStreets/Textures/street.straight.dashLines.png
+  artifactKey: Guid(e064d7fadf32ad445883cc31a3c910dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.straight.dashLines.png using Guid(e064d7fadf32ad445883cc31a3c910dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fefadd53e13e59663d82ab09b10059') in 0.013903 seconds 
+  Import took 0.019961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/CityStreets/Textures/street.end.crosswalk.png
+  artifactKey: Guid(bf86b24f6033afa4cb45de7e0e4e9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.end.crosswalk.png using Guid(bf86b24f6033afa4cb45de7e0e4e9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f6ab66d2e4b00944b4e4d529f9dfd3') in 0.011943 seconds 
+  Import took 0.017260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/CityStreets/Textures/street.straight.crosswalk.png
+  artifactKey: Guid(2a67cefddbbd0b645866bdc378cc926a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.straight.crosswalk.png using Guid(2a67cefddbbd0b645866bdc378cc926a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfaecbc823e24e9ec51da3b456cded8') in 0.014679 seconds 
+  Import took 0.019984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/CityStreets/Textures/street.curve.crosswalk.png
+  artifactKey: Guid(da84eeac2ed4d7548942010b96062cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.curve.crosswalk.png using Guid(da84eeac2ed4d7548942010b96062cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c4e10a9de593d87078420d2c93b01a') in 0.015778 seconds 
+  Import took 0.022539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.dashLines.png
+  artifactKey: Guid(c999f7b1c0cd9d448be76832ad7fc28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.dashLines.png using Guid(c999f7b1c0cd9d448be76832ad7fc28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38d96505a6197deccfb47b286d4e6f3') in 0.015192 seconds 
+  Import took 0.020680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/CityStreets/Textures/street.normal.png
+  artifactKey: Guid(fc1c8026dc852bf4aa86d5d984ed7044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.normal.png using Guid(fc1c8026dc852bf4aa86d5d984ed7044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b78d097431a4a098d6f4612e3d59bee') in 0.015082 seconds 
+  Import took 0.021348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/CityStreets/Textures/curb.specular.png
+  artifactKey: Guid(14478dd16cc8e29498727aeda89e3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/curb.specular.png using Guid(14478dd16cc8e29498727aeda89e3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5051f9abc3886c1fbf045aad403a0e63') in 0.011542 seconds 
+  Import took 0.017832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/CityStreets/Textures/sidewalk.normal.png
+  artifactKey: Guid(2cc3290f25011ce49b109f5d2d0fbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/sidewalk.normal.png using Guid(2cc3290f25011ce49b109f5d2d0fbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63f5fe41072585ccb68260806e447e8') in 0.014636 seconds 
+  Import took 0.021892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/CityStreets/Textures/street.junction.crosswalk.png
+  artifactKey: Guid(50f386ef0e13ddd489189cc109d10a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.junction.crosswalk.png using Guid(50f386ef0e13ddd489189cc109d10a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4608e6f099e69bb11eddf11ebe9ae391') in 0.014207 seconds 
+  Import took 0.021716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/CityStreets/Textures/street.straight.solidLine.png
+  artifactKey: Guid(dba1d0bd6dadc644db30a0a282b640c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.straight.solidLine.png using Guid(dba1d0bd6dadc644db30a0a282b640c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c06d22591bfe0e10d474b8d2a07e7d') in 0.016261 seconds 
+  Import took 0.023626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/CityStreets/Textures/sidewalk.png
+  artifactKey: Guid(16afabe6c6b8fec4fae1fa812654cc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/sidewalk.png using Guid(16afabe6c6b8fec4fae1fa812654cc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32e53f0ae8395f4995b003f1998894b') in 0.023242 seconds 
+  Import took 0.032641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/CityStreets/Textures/street.junction.solidLine.png
+  artifactKey: Guid(767fc7279826491459d38906b5f93d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.junction.solidLine.png using Guid(767fc7279826491459d38906b5f93d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6f736ff4b54d9e9ba5329fb3062553') in 0.016619 seconds 
+  Import took 0.026468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/CityStreets/Textures/street.end.solidLine.png
+  artifactKey: Guid(ea75040e2b97aed40b7ff25f87643587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.end.solidLine.png using Guid(ea75040e2b97aed40b7ff25f87643587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110abf222da152e402131a122d12b822') in 0.016680 seconds 
+  Import took 0.024377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.337151 seconds.
+  path: Assets/CityStreets/Documents/Rectangular Palette.prefab
+  artifactKey: Guid(f08fbb7eaec6fac4db88033ed15fb3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Documents/Rectangular Palette.prefab using Guid(f08fbb7eaec6fac4db88033ed15fb3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acb278bbc35dac75e16396c2cb38ccd') in 0.023096 seconds 
+  Import took 0.029642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.162692 seconds.
+  path: Assets/CityStreets/Documents/Rectangular Palette.prefab
+  artifactKey: Guid(f08fbb7eaec6fac4db88033ed15fb3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Documents/Rectangular Palette.prefab using Guid(f08fbb7eaec6fac4db88033ed15fb3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b7c6128a4cede2091e9bde28b8405b') in 0.032936 seconds 
+  Import took 0.038193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.682301 seconds.
+  path: Assets/Resource/TileMap/Road.prefab
+  artifactKey: Guid(570ac9b28de861b47bcb51f07365fa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/TileMap/Road.prefab using Guid(570ac9b28de861b47bcb51f07365fa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae7247eba04ece86265dc4ddf966af7') in 0.012709 seconds 
+  Import took 0.017757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.450475 seconds.
+  path: Assets/Resource/World.prefab
+  artifactKey: Guid(67dc391ef9f14804db45f313fe0e3c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/World.prefab using Guid(67dc391ef9f14804db45f313fe0e3c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ec036b969a47ccff0b447fe7c4110f') in 0.023307 seconds 
+  Import took 0.029395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.668076 seconds.
+  path: Assets/CityStreets/Prefabs
+  artifactKey: Guid(18525a5ba3dec6841ad023507bf74fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Prefabs using Guid(18525a5ba3dec6841ad023507bf74fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd50f9a47a4252533612cb162f3f82c') in 0.003569 seconds 
+  Import took 0.010307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.109204 seconds.
+  path: Assets/CityStreets/Textures/curb.specular.png
+  artifactKey: Guid(14478dd16cc8e29498727aeda89e3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/curb.specular.png using Guid(14478dd16cc8e29498727aeda89e3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c626b83763c4bbb6e5e7bef33fcdeb') in 0.019373 seconds 
+  Import took 0.025134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.600173 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.crosswalk.png
+  artifactKey: Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.crosswalk.png using Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894a65b95c1a752d13e422554d3ab63b') in 0.025955 seconds 
+  Import took 0.031503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.334193 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.crosswalk.png
+  artifactKey: Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.crosswalk.png using Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c640c64954d5c2c378cea787c29fbccf') in 0.029866 seconds 
+  Import took 0.035809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.056100 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.crosswalk.png
+  artifactKey: Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.crosswalk.png using Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c139bf750d736f71148ea74ddd70760') in 0.028676 seconds 
+  Import took 0.034396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.461535 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.crosswalk.png
+  artifactKey: Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.crosswalk.png using Guid(c32b1d783c3c5944f8e1c6690c12be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c17b592d3356f277d5aabbf54b998f3') in 0.026895 seconds 
+  Import took 0.032629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.868639 seconds.
+  path: Assets/CityStreets/Textures/curb.normal.png
+  artifactKey: Guid(dc9eae83d8d86ef429c36a4645fc1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/curb.normal.png using Guid(dc9eae83d8d86ef429c36a4645fc1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3ee197af186f1cedb3be0c7f3d91b6') in 0.025936 seconds 
+  Import took 0.033301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.458448 seconds.
+  path: Assets/CityStreets/Textures/curb.png
+  artifactKey: Guid(a7cd4228da97e9c48a8a4e5c15b50841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/curb.png using Guid(a7cd4228da97e9c48a8a4e5c15b50841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a513f8dcb2e95f5a1b167e84bd55f583') in 0.023364 seconds 
+  Import took 0.029639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.267647 seconds.
+  path: Assets/CityStreets/Textures/curb.specular.png
+  artifactKey: Guid(14478dd16cc8e29498727aeda89e3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/curb.specular.png using Guid(14478dd16cc8e29498727aeda89e3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a11e44dc7749042d6eaf53b3f334aec') in 0.023676 seconds 
+  Import took 0.030794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.790856 seconds.
+  path: Assets/CityStreets/Textures/sidewalk.normal.png
+  artifactKey: Guid(2cc3290f25011ce49b109f5d2d0fbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/sidewalk.normal.png using Guid(2cc3290f25011ce49b109f5d2d0fbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919d492780453f92aa0fcad10ddc4051') in 0.029128 seconds 
+  Import took 0.038356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.925530 seconds.
+  path: Assets/CityStreets/Textures/sidewalk.png
+  artifactKey: Guid(16afabe6c6b8fec4fae1fa812654cc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/sidewalk.png using Guid(16afabe6c6b8fec4fae1fa812654cc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab0bb66912e53930715096eb13ccace') in 0.025472 seconds 
+  Import took 0.031538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.714515 seconds.
+  path: Assets/CityStreets/Textures/sidewalk.specular.png
+  artifactKey: Guid(7b154bafdf1f6734594c14e447e4f101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/sidewalk.specular.png using Guid(7b154bafdf1f6734594c14e447e4f101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca8df7ec5e1975154b53291a10bc567') in 0.028850 seconds 
+  Import took 0.035190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.435810 seconds.
+  path: Assets/CityStreets/Textures/street.curve.crosswalk.png
+  artifactKey: Guid(da84eeac2ed4d7548942010b96062cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.curve.crosswalk.png using Guid(da84eeac2ed4d7548942010b96062cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd37d099b9762204bb401a4a9d13f1c1') in 0.043311 seconds 
+  Import took 0.050578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.244559 seconds.
+  path: Assets/CityStreets/Textures/street.curve.dashLines.png
+  artifactKey: Guid(dbc30b801d6fa7244aa5c699c8c4395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.curve.dashLines.png using Guid(dbc30b801d6fa7244aa5c699c8c4395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6707da82dc330c0a9330d966f1bf74b') in 0.027372 seconds 
+  Import took 0.033051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.105204 seconds.
+  path: Assets/CityStreets/Textures/street.curve.solidLine.png
+  artifactKey: Guid(cf4e075ae2d1b6645b5cf3afbc86080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.curve.solidLine.png using Guid(cf4e075ae2d1b6645b5cf3afbc86080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252e880af1d214f45cc8d7f78813ac03') in 0.024987 seconds 
+  Import took 0.030030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.351872 seconds.
+  path: Assets/CityStreets/Textures/street.end.crosswalk.png
+  artifactKey: Guid(bf86b24f6033afa4cb45de7e0e4e9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.end.crosswalk.png using Guid(bf86b24f6033afa4cb45de7e0e4e9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65918f9fa0682146bcac1cb3d9c1684d') in 0.030350 seconds 
+  Import took 0.035336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.304994 seconds.
+  path: Assets/CityStreets/Textures/street.end.dashLines.png
+  artifactKey: Guid(a1a974159531510439306e0fa7fd5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.end.dashLines.png using Guid(a1a974159531510439306e0fa7fd5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a1a257072b1b49cc514fe749424c08') in 0.025396 seconds 
+  Import took 0.032190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.859759 seconds.
+  path: Assets/CityStreets/Textures/street.end.solidLine.png
+  artifactKey: Guid(ea75040e2b97aed40b7ff25f87643587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.end.solidLine.png using Guid(ea75040e2b97aed40b7ff25f87643587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990d0d1d1ac97d5a42dde8b1856f776d') in 0.024304 seconds 
+  Import took 0.030270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.232471 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.dashLines.png
+  artifactKey: Guid(c999f7b1c0cd9d448be76832ad7fc28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.dashLines.png using Guid(c999f7b1c0cd9d448be76832ad7fc28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba89cce5947501a5c873f42406945f24') in 0.024856 seconds 
+  Import took 0.031131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.353592 seconds.
+  path: Assets/CityStreets/Textures/street.intersection.solidLine.png
+  artifactKey: Guid(3efcd962bb45bb14b91c85b8cfa259fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.intersection.solidLine.png using Guid(3efcd962bb45bb14b91c85b8cfa259fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ab3154f57c71b88cde2690bccbbf77') in 0.026590 seconds 
+  Import took 0.034592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.257901 seconds.
+  path: Assets/CityStreets/Textures/street.junction.crosswalk.png
+  artifactKey: Guid(50f386ef0e13ddd489189cc109d10a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.junction.crosswalk.png using Guid(50f386ef0e13ddd489189cc109d10a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ae17f9f054198eb0c88ae40d751a6e') in 0.036021 seconds 
+  Import took 0.041644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.036165 seconds.
+  path: Assets/CityStreets/Textures/street.junction.dashLines.png
+  artifactKey: Guid(340b0a5d984416242986efa60ea6e03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.junction.dashLines.png using Guid(340b0a5d984416242986efa60ea6e03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750e5451bae6e9804848f2047f56cf4b') in 0.041480 seconds 
+  Import took 0.047699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.463924 seconds.
+  path: Assets/CityStreets/Textures/street.junction.solidLine.png
+  artifactKey: Guid(767fc7279826491459d38906b5f93d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.junction.solidLine.png using Guid(767fc7279826491459d38906b5f93d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d16402c1844dda57fb7ed8d2e188d2') in 0.109208 seconds 
+  Import took 0.114416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/CityStreets/Textures/street.specular.png
+  artifactKey: Guid(81bc9eb8195fe9b4686e0b11e50010a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.specular.png using Guid(81bc9eb8195fe9b4686e0b11e50010a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f9c0afd8898199fc338ddba9f5ca1a') in 0.029872 seconds 
+  Import took 0.036325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001162 seconds.
+  path: Assets/CityStreets/Textures/street.straight.dashLines.png
+  artifactKey: Guid(e064d7fadf32ad445883cc31a3c910dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.straight.dashLines.png using Guid(e064d7fadf32ad445883cc31a3c910dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd3cad1725f579ad83e80be71af3fe5') in 0.028632 seconds 
+  Import took 0.033558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/CityStreets/Textures/street.straight.crosswalk.png
+  artifactKey: Guid(2a67cefddbbd0b645866bdc378cc926a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.straight.crosswalk.png using Guid(2a67cefddbbd0b645866bdc378cc926a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6f0a50ca8357661712f83f1ef733ed') in 0.032167 seconds 
+  Import took 0.037305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/CityStreets/Textures/street.normal.png
+  artifactKey: Guid(fc1c8026dc852bf4aa86d5d984ed7044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.normal.png using Guid(fc1c8026dc852bf4aa86d5d984ed7044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f14237e6e9ebabb7cdbc6a244fbe01') in 0.040576 seconds 
+  Import took 0.047612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/CityStreets/Textures/street.straight.solidLine.png
+  artifactKey: Guid(dba1d0bd6dadc644db30a0a282b640c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/street.straight.solidLine.png using Guid(dba1d0bd6dadc644db30a0a282b640c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef1521199a3f168d3246ad1cf39a549') in 0.028101 seconds 
+  Import took 0.033395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.963471 seconds.
+  path: Assets/CityStreets/Textures/curb.normal.png
+  artifactKey: Guid(dc9eae83d8d86ef429c36a4645fc1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityStreets/Textures/curb.normal.png using Guid(dc9eae83d8d86ef429c36a4645fc1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f82eee422a89412c29f5da71798d36') in 0.031500 seconds 
+  Import took 0.035476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.644192 seconds.
+  path: Assets/Resource/World.prefab
+  artifactKey: Guid(67dc391ef9f14804db45f313fe0e3c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/World.prefab using Guid(67dc391ef9f14804db45f313fe0e3c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f6844268916c521287d2a01f61b363') in 0.017967 seconds 
+  Import took 0.024414 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
