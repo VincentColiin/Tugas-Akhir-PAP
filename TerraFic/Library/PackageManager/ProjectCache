@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637738800183642460
-    m_Hash: 2520230265
+      ticks: 637739182956894086
+    m_Hash: 3974004320
   m_LockFileStatus:
     m_FilePath: C:/Users/USER/Desktop/Kuliah/Semester 5/Pengembangan Aplikasi Permainan/Tugas/Tugas-Akhir-PAP/TerraFic/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637738800184829284
-    m_Hash: 2121652804
+      ticks: 637739182956904050
+    m_Hash: 2297956804
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

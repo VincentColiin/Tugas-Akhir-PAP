@@ -752,13 +752,13 @@
       <Project>{65950805-74F9-0197-3B44-A73F893473D3}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="PathCreatorEditor.csproj">
-      <Project>{4FD0BAF7-2B5F-BB58-C862-64C667BDF97A}</Project>
-      <Name>PathCreatorEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="PathCreator.csproj">
       <Project>{9B7370D6-4CF0-FD49-945E-74F77AC6FB39}</Project>
       <Name>PathCreator</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreatorEditor.csproj">
+      <Project>{4FD0BAF7-2B5F-BB58-C862-64C667BDF97A}</Project>
+      <Name>PathCreatorEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
