@@ -7,8 +7,9 @@ using UnityEngine;
 public class FollowPath : MonoBehaviour
 {
 
-    enum rotate
+    enum junction
     {
+        straight,
         left,
         right
     }
@@ -16,22 +17,47 @@ public class FollowPath : MonoBehaviour
     [SerializeField] float minDist = 0.2f;
     [SerializeField] float maxSpeed = 0.01f;
     [SerializeField] Transform[] points = new Transform[2];
-    [SerializeField] rotate[] rotates;
+    [SerializeField] junction[] junctions;
+    [SerializeField] GameObject trafficPost;
+    [SerializeField] Transform stopPostition;
     GameObject car;
     private Vector3 velocity;
     private float time;
     private int i;
     private bool rotated;
+    [SerializeField] float timeLimit = 5f;
+    private float timeWaited;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        transform.position = points[0].position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         //Masih perlu diganti agar bisa dipake untuk semua mobil
+        if((transform.position - stopPostition.position).magnitude > minDist 
+            || 
+            trafficPost.GetComponent<TrafficPost>().getLight() == TrafficPost.Light.green)
+        {
+            moveCar();
+        } else if(timeWaited < timeLimit)
+        {
+            timeWaited = timeWaited + Time.deltaTime;
+            Debug.Log(timeWaited);
+        } else
+        {
+            moveCar();
+        }
+        
+    }
+
+
+    private void moveCar()
+    {
         if ((transform.position - points[i + 1].position).magnitude >= minDist)
         {
             time = (time + Time.deltaTime * maxSpeed);
@@ -41,17 +67,18 @@ public class FollowPath : MonoBehaviour
 
             if (i > 0 && !rotated)
             {
-                switch (rotates[i - 1])
+                switch (junctions[i - 1])
                 {
-                    case rotate.left:
+                    case junction.left:
                         transform.rotation *= Quaternion.Euler(0, 0, 90);
                         rotated = true;
                         break;
-                    case rotate.right:
+                    case junction.right:
                         transform.rotation *= Quaternion.Euler(0, 0, -90);
                         rotated = true;
                         break;
                     default:
+                        Debug.Log("junction bermasalah");
                         break;
                 }
             }
