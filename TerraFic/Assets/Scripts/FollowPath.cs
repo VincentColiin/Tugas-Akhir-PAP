@@ -20,6 +20,7 @@ public class FollowPath : MonoBehaviour
     [SerializeField] junction[] junctions;
     [SerializeField] GameObject trafficPost;
     [SerializeField] Transform stopPostition;
+    [SerializeField] GameOverScript gameOverScript;
     GameObject car;
     private Vector3 velocity;
     private float time;
@@ -37,22 +38,24 @@ public class FollowPath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        //Masih perlu diganti agar bisa dipake untuk semua mobil
-        if((transform.position - stopPostition.position).magnitude > minDist 
-            || 
-            trafficPost.GetComponent<TrafficPost>().getLight() == TrafficPost.Light.green)
+        if (gameOverScript.getState() == 1)
         {
-            moveCar();
-        } else if(timeWaited < timeLimit)
-        {
-            timeWaited = timeWaited + Time.deltaTime;
-            Debug.Log(timeWaited);
-        } else
-        {
-            moveCar();
+            if ((transform.position - stopPostition.position).magnitude > minDist
+                ||
+                trafficPost.GetComponent<TrafficPost>().getLight() == TrafficPost.Light.green)
+            {
+                moveCar();
+            }
+            else if (timeWaited < timeLimit)
+            {
+                timeWaited = timeWaited + Time.deltaTime;
+            }
+            else
+            {
+                moveCar();
+            }
+
         }
-        
     }
 
 
@@ -108,6 +111,11 @@ public class FollowPath : MonoBehaviour
     private float Map(float value, float inputLow, float inputHigh, float outputLow, float outputHigh)
     {
         return outputLow + (value - outputLow) * (outputHigh - outputLow) / (inputHigh - inputLow);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        gameOverScript.onCollision();
     }
 
 }

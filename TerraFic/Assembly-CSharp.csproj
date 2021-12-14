@@ -64,7 +64,7 @@
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathSceneTool.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathFollower.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
-    <Compile Include="Assets\Scripts\tempTrafficlights.cs" />
+    <Compile Include="Assets\Scripts\GameOverScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
