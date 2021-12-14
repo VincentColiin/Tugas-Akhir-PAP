@@ -11,11 +11,13 @@ public class TrafficPost : MonoBehaviour
     }
 
     new Light light = Light.red;
-    SpriteRenderer trafficRenderer;
+    SpriteRenderer redRenderer;
+    SpriteRenderer greenRenderer;
     // Start is called before the first frame update
     void Start()
     {
-        trafficRenderer = GetComponent<SpriteRenderer>();
+        redRenderer = this.transform.Find("redLight").GetComponent<SpriteRenderer>();
+        greenRenderer = this.transform.Find("greenLight").GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -24,13 +26,16 @@ public class TrafficPost : MonoBehaviour
         switch (light)
         {
             case Light.red:
-                trafficRenderer.color = Color.red;
+                redRenderer.color = new Color(1f, 0, 0, 1f);
+                greenRenderer.color = new Color(0, 1f, 0, 0.25f);
                 break;
             case Light.green:
-                trafficRenderer.color = Color.green;
+                redRenderer.color = new Color(1f, 0, 0, 0.25f);
+                greenRenderer.color = new Color(0, 1f, 0, 1f);
                 break;
             default:
-                trafficRenderer.color = Color.white;
+                redRenderer.color = new Color(1f, 0, 0, 0.25f);
+                greenRenderer.color = new Color(0, 1f, 0, 0.25f);
                 break;
         }
     }
