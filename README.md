@@ -4,7 +4,7 @@ Proyek aplikasi permainan untuk mata kuliah Pengembangan Aplikasi Permainan DTET
 ## Submisi-submisi penugasan sebelumnya
 - [Game Design Document](Docs/Game%20Design%20Document_E-Tree.pdf)
 
-## Cara memainkan (WIP!)
+## Cara memainkan (*WIP!*)
 Menekan tombol angka pada keyboard(bkn numpad) untuk mengubah kondisi lampu lalu lintas dari merah ke hijau
 mobil pada lampu merah akan berhenti dan menunggu waktu tertentu sebelum menerobos
 
