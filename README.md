@@ -1,5 +1,10 @@
-# Terrafic Game
-Proyek aplikasi permainan untuk mata kuliah Pengembangan Aplikasi Permainan DTETI FT UGM (2021/2022).
+<div align="center">
+  <img alt="Terrafic" src="https://user-images.githubusercontent.com/26179451/146301013-dc58407c-3b31-468b-a765-78f97da74614.png" width="400">
+  <br><br>
+  Proyek aplikasi permainan untuk mata kuliah Pengembangan Aplikasi Permainan DTETI FT UGM (2021/2022).
+</div>
+
+<br>
 
 ## Submisi-submisi penugasan sebelumnya
 - [Game Design Document](Docs/Game%20Design%20Document_E-Tree.pdf)
